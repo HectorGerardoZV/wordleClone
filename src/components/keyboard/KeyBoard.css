@@ -1,0 +1,42 @@
+.keyboardStyle{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: .5rem;
+}
+
+.rowLetters{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.key{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    background-color: rgb(75, 75, 75);
+    padding: 1rem;
+    border-radius: .5rem;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+.key:hover{
+    background-color: rgb(126, 126, 126);
+}
+
+.clicked{
+    background-color: rgb(126, 126, 126);
+}
+.exact{
+    background-color: green;
+}
+.exist{
+    background-color: rgb(176, 176, 0);
+}
+.no{
+    background-color: rgb(25, 25, 25);
+}
